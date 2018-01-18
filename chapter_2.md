@@ -56,7 +56,7 @@ There are operators that return true or false instead of a numeric value.  Many 
   
 You can also combine logic tests together with the operators:
   * &&    'and' returns true if the items on either side are both true
-  * ||    'or'  returns ture if at least one of the items on it's sides is true.
+  * ||    'or'  returns true if at least one of the items on it's sides is true.
   
 Finally our first unary operator (meaning it only takes one operand)
   * !     'not' returns false if the operand following it is ture, and returns true if that operand is false
