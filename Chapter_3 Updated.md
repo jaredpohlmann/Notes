@@ -122,10 +122,10 @@ How can we test things in conditionals and loops?
 
 When we test something we want the result to be true or false.  We know of some of these and use them regularly:
 * <  less than
-* >  greater than
+*  >  greater than
 * == is equal to
 * <= less than or equal to
-* >= greater than or equal to
+*  >= greater than or equal to
 
 What if we need something to not be one of these things?  For that we have a not opperator: 
 * !
