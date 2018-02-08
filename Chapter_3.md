@@ -157,3 +157,7 @@ If it is not the case that either the sky is blue or the water is red.
 becomes:
 if( !( (sky == blue) || (water == red) ) )
 
+#Comments in Java
+Use // to indicate that everything after is a comment *works for one row*
+Use /*_____*/ to indicate that everything in between is to be seen as a comment
+          Use comments for assistance too many can be very messy and unneccessary
