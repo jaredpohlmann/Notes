@@ -163,3 +163,13 @@ Use // to indicate that everything after is a comment *works for one row*
 Use /*_____*/ to indicate that everything in between is to be seen as a comment
           Use comments for assistance too many can be very messy and unneccessary
 ~~~
+
+### Initial Set Up
+~~~
+- public class (NAME of File)
+  { 
+          public static void main(String[]args)  (*** These two things are needed to have java run/ This MAIN is a function**)
+          {
+          }
+  }
+~~~
