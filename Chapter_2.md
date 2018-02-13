@@ -67,8 +67,12 @@ Finally our first UNARY operator (meaning it only takes one operand)
   * !     'not' returns false if the operand following it is true, and returns true if that operand is false
   	** Can be used to negate statements 
 		ie: !(a==5) reads as return true for a not equal to 5
-		
-  
+#### Data Type
+int- numbers 
+long- holds larger number than int
+float-decimal number
+double-decimal number
+
 #### Tracing a program
 This is a skill that helps you track down what is happening during a program to find why it is not giving you the result you expected it to.
 
@@ -112,7 +116,7 @@ The book describes this and two other methods of using a loops test to stop the 
 
 ##### Combining these control structures:
 
-What is git add/ git commit/ git push?*
+
 
 ### PSEUDO CODE EXAMPLE IN CLASS 1/24
 
