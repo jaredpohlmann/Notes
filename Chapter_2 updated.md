@@ -67,6 +67,7 @@ Finally our first UNARY operator (meaning it only takes one operand)
   * !     'not' returns false if the operand following it is true, and returns true if that operand is false
   	** Can be used to negate statements 
 		ie: !(a==5) reads as return true for a not equal to 5
+~~~
 #### Data Type
 int - numbers 
 long - holds larger number than int
@@ -85,9 +86,10 @@ Array
 		EXP:
 			char[] firstName;
 			firstName =new
-			char[number interger;]
+			char[number of char name;]
+			
 	2) int[] ->stores array of number
-
+~~~
 #### Tracing a program
 This is a skill that helps you track down what is happening during a program to find why it is not giving you the result you expected it to.
 
