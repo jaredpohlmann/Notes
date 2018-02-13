@@ -89,7 +89,20 @@ Array
 			char[number of char name;]
 			
 	2) int[] ->stores array of number
-~~~
+String -stores multiple letters 
+
+
+#### Bringing Data into program
+1) import java.util.Scanner; ((Imports scanner))
+	public class Example
+	{
+		public static void main(String[]args)
+		{
+			ScannerstdIn=
+		}
+	}
+	
+	~~~
 #### Tracing a program
 This is a skill that helps you track down what is happening during a program to find why it is not giving you the result you expected it to.
 
@@ -133,7 +146,7 @@ The book describes this and two other methods of using a loops test to stop the 
 
 ##### Combining these control structures:
 
-
+i
 
 ### PSEUDO CODE EXAMPLE IN CLASS 1/24
 
