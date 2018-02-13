@@ -68,10 +68,25 @@ Finally our first UNARY operator (meaning it only takes one operand)
   	** Can be used to negate statements 
 		ie: !(a==5) reads as return true for a not equal to 5
 #### Data Type
-int- numbers 
-long- holds larger number than int
-float-decimal number
-double-decimal number
+int - numbers 
+long - holds larger number than int
+float -decimal number
+double -decimal number
+boolean-> stores "true" "false"
+char -> stores one charactier (can be 'a' '%')
+	Special Char
+		1)\n -> gives new line
+		2)\t -> gives tab
+		3) \\ -> prints "\"
+		4) '\'' -> prints single quote (')
+		5) '\"' -> prints double quote
+Array
+	1) char[]
+		EXP:
+			char[] firstName;
+			firstName =new
+			char[number interger;]
+	2) int[] ->stores array of number
 
 #### Tracing a program
 This is a skill that helps you track down what is happening during a program to find why it is not giving you the result you expected it to.
@@ -92,7 +107,7 @@ We can string these above steps together, but we need ways to only do the steps 
 
 ##### If structure:
   * if                 do this poriton of code only if the test is true
-  * if - else          same as the if, but has a second porion of code that is followed only if the test is not true.
+  * if - else          same as the if, but has a second portion of code that is followed only if the test is not true.
   * if - else if       Same as if-else, however only runs the second poriton if the first test if false and a second is true.
   
 How to determine which to use?  Partially practice, and being *lazy*.
