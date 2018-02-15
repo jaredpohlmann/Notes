@@ -173,3 +173,19 @@ Use /*_____*/ to indicate that everything in between is to be seen as a comment
           }
   }
 ~~~
+### Switch Statements
+~~~
+int i
+switch(i%5)
+{
+case 0:
+ -insert commands if condition met for this case -
+case 1
+case 2
+case 3
+case 4
+default:
+print 'i is a multiple of 5"
+}
+
+~~~
