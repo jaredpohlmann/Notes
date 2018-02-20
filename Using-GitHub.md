@@ -4,8 +4,8 @@
 1. [Initially create a copy of personal GitHub repo on a local computer](#CloneToPersonalComputer)
 1. [You have made changes locally that you want to have in your GitHub repo](#PushChangesToPersonalGitHubRepo)
 1. [Move changes from your personal GitHub repo to the class GitHub repo](#PushChangesToClassRepo)
-* [After you crete the repository on your personal space, it is updated](#PullClassToPersonal)
-* [Pulling changes to your local computer that happened after you cloned the repo](#PullUpdatesToPersonalRepo)
+* [After you crete the repository on your personal space, it is updated](#PullClassChangesToPersonalGitHubReop)
+* [Pulling changes to your local computer that happened after you cloned the repo](#PullUpdatesFromPersonalGitHubRepoToLocalRepo)
 
 
 
@@ -61,9 +61,9 @@ Also Note, you can always check if this worked properly, as you can log into the
 If you get a note that it can't merge, let the professor know.  
 
 
-## PullClassToPersonal
+## PullClassChangesToPersonalGitHubReop
 
-* Go to your personal GitHub copy fo the repository.
+* Go to your personal GitHub copy of the repository.
 * Select new pull request.
 * Make sure the class repository is on the right and your personal is on the left.
 * Select "Create Pull Request", and continue to click the buttons to merge this in.
@@ -71,7 +71,7 @@ If you get a note that it can't merge, let the professor know.
 If you get a merge conflict, and GitHub can not merge, contact the professor for help.
 
 
-## PullUpdatesToPersonalRepo
+## PullUpdatesFromPersonalGitHubRepoToLocalRepo
 
 * In GitBash, go inside the folder for this repo on your local machine.  (usind the command 'cd')
 * Run the command 'git pull origin master'
