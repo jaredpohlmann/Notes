@@ -3,6 +3,9 @@
 1. [Initially create personal GitHub repo from Class repo](#CloneToPersonalGitHubRepo)
 1. [Initially create a copy of personal GitHub repo on a local computer](#CloneToPersonalComputer)
 1. [You have made changes locally that you want to have in your GitHub repo](#PushChangesToPersonalGitHubRepo)
+1. [Move changes from your personal GitHub repo to the class GitHub repo](#PushChangesToClassRepo)
+* [After you crete the repository on your personal space, it is updated](#PullClassToPersonal)
+* [Pulling changes to your local computer that happened after you cloned the repo](#PullUpdatesToPersonalRepo)
 
 
 
@@ -33,3 +36,42 @@ Inside that should be the files that were in the repository when you cloned it.
 
 
 ## PushChangesToPersonalGitHubRepo
+
+* Open GitBash and navigate inside the repository folder.
+* Run the command 'git add -A' to work towards having all changes added.
+* Run the command 'git commit' to make a commit with the changes on these files.
+* Run the command 'git push origin/master' to push the changes in the commit to your personal GitHub repo.
+
+Note: you can run the command 'git status' at any time to get a feel for what has been done/needs to be done.
+* Any files whose name is in red are files that have changes that have not been added yet.
+* Any files whose name is in green have been added, and are waiting on being committed.
+* If a file name does not show up here, then either it current version has been committed, or there has been not change to it.
+
+Also Note, you can always check if this worked properly, as you can log into the GitHub web page, and from there, go to your personal repository for this project.  Check if the changes you made to files are in those files.  If so, then you are good.  If not, ggheck a git status, and verify you did the git push command above.  If neither of those solve your issue, please contact the professor.
+
+
+## PushChangesToClassRepo
+
+* Open up the GitHub website, and go to your personal repository for this project.
+* Click the create pull request button.
+* Make sure your personal repo is on the right, and the class repo is on the left.
+* Click create repo (entering in a description if it wants it, or you want to.)
+* Go through two or three more screens saying yes merge, until it says that either it can't merge, or it merged successfully.
+
+If you get a note that it can't merge, let the professor know.  
+
+
+## PullClassToPersonal
+
+* Go to your personal GitHub copy fo the repository.
+* Select new pull request.
+* Make sure the class repository is on the right and your personal is on the left.
+* Select "Create Pull Request", and continue to click the buttons to merge this in.
+
+If you get a merge conflict, and GitHub can not merge, contact the professor for help.
+
+
+## PullUpdatesToPersonalRepo
+
+* In GitBash, go inside the folder for this repo on your local machine.  (usind the command 'cd')
+* Run the command 'git pull origin master'
