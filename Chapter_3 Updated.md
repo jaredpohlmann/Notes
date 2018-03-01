@@ -119,14 +119,14 @@ Note that with this condition we had to invert it, as the written test in the fl
 
 #### Tests
 How can we test things in conditionals and loops?
-
+~~~
 When we test something we want the result to be true or false.  We know of some of these and use them regularly:
 * <  less than
-* >  greater than
+*  >  greater than
 * == is equal to
 * <= less than or equal to
-* >= greater than or equal to
-
+*  >= greater than or equal to
+~~~
 What if we need something to not be one of these things?  For that we have a not opperator: 
 * !
 
@@ -138,3 +138,54 @@ or it can be used with any test:
 
 note the parenthesis here to indicate what we want the oppisite truth value of (parenthesis still evaluate before the not opperator.)
 
+How could you write the above "temp is less than 50" test other than changing the less than opperator?
+
+
+So you may be asking "What do I do if things get more complicated?"  For example what if you needed to test if a value was less than 10 or greater than 90?
+
+There are multiple ways to do this, but to introduce you to one more tool for tests, I'm going to choose the method that is closest to what was written:
+* (value < 10) || (value > 90)
+
+There are two of these opperators:
+* || logical OR.  If the item on either side is true, then return true, otherwise return false.
+* && logical AND.  Only when the item on both sides is true, return true, otherwise return false.
+
+
+This allows us to build up some wild sentances and translate them into logic:
+If it is not the case that either the sky is blue or the water is red.
+
+becomes:
+if( !( (sky == blue) || (water == red) ) )
+
+### Comments in Java
+~~~
+Use // to indicate that everything after is a comment *works for one row*
+Use /*_____*/ to indicate that everything in between is to be seen as a comment
+          Use comments for assistance too many can be very messy and unneccessary
+~~~
+
+### Initial Set Up
+~~~
+- public class (NAME of File)
+  { 
+          public static void main(String[]args)  (*** These two things are needed to have java run/ This MAIN is a function**)
+          {
+          }
+  }
+~~~
+### Switch Statements
+~~~
+int i
+switch(i%5)
+{
+case 0:
+ -insert commands if condition met for this case -
+case 1
+case 2
+case 3
+case 4
+default:
+print 'i is a multiple of 5"
+}
+
+~~~
